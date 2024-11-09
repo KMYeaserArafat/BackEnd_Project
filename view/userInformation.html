@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Information</title>
+</head>
+<body>
+    <h1>User Information Page</h1>
+    <form action="/userInformation" method="post" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td>Enter User Name:</td>
+                <td><input type="text" name="name" /></td>
+            </tr>
+            <tr>
+                <td>Enter Age:</td>
+                <td><input type="text" name="age" /></td>
+            </tr>
+            <tr>
+                <td>Insert File:</td>
+                <td><input type="file" name="file" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
